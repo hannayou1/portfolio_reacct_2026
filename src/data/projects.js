@@ -13,6 +13,21 @@ export const FILTERS = [
 
 export const PROJECTS = [
   {
+    title: 'React 프론트엔드 개발자 포트폴리오 (이 사이트)',
+    cats: ['react', 'vibe'],
+    tag: 'React · 개인',
+    tagClass: 'c-react',
+    img: '/contents/images/works/portfolio_react.png',
+    alt: '프론트엔드 개발자 포트폴리오 — React 버전 메인 화면',
+    href: 'https://portfolio-react-2026-eight.vercel.app',
+    role: '기획 · UI 디자인 · 개발 100%',
+    tech: 'React.js · Vite · Claude Code',
+    feature: '데이터 기반 렌더링 · 컴포넌트 설계 · 자동배포',
+    chip: '🤖 Claude Code와 함께 제작 · git push 자동배포',
+    vibe: true,
+    codeUrl: 'https://github.com/hannayou1/portfolio_reacct_2026',
+  },
+  {
     title: 'React 포트폴리오 사이트',
     cats: ['react'],
     tag: 'React · 개인',
