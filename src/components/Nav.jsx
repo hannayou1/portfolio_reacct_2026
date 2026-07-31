@@ -36,7 +36,7 @@ export default function Nav() {
             </a>
           ))}
         </nav>
-        <a href="mailto:pooh9868@naver.com" className="nav-cta">연락하기 →</a>
+        {/* <a href="" className="nav-cta">연락하기 →</a> */}
         <div
           className="hamburger"
           aria-label="메뉴 열기"

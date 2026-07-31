@@ -82,9 +82,9 @@ export default function Hero() {
           <a href="#works" className="btn-solid">
             프로젝트 보기 ↓
           </a>
-          <a href="mailto:pooh9868@naver.com" className="btn-outline">
+          {/* <a href="" className="btn-outline">
             연락하기
-          </a>
+          </a> */}
         </div>
       </div>
       <div className="hero-photo fade-up d2">
