@@ -1,9 +1,10 @@
 // Created: 2026-07-27 16:32 — 프로젝트 카드 데이터 (index.html의 works-grid에서 이관)
-// cats: 'react' | 'vibe' | 'edu' | 'groupware' | 'system' | 'doc'
+// cats: 'react' | 'js' | 'vibe' | 'edu' | 'groupware' | 'system' | 'doc'
 
 export const FILTERS = [
   { key: 'all', label: '전체' },
   { key: 'react', label: 'React · Vue · 개인' },
+  { key: 'js', label: 'JavaScript' },
   { key: 'vibe', label: '🤖 바이브 코딩', vibe: true },
   { key: 'edu', label: '대학 · 교육' },
   { key: 'groupware', label: '그룹웨어 · 포털' },
@@ -84,6 +85,21 @@ export const PROJECTS = [
     feature: '트리 구조 · 멀티 선택 UI',
     chip: 'API 연동 · 컴포넌트 설계',
     codeUrl: 'https://github.com/hannayou1/organization-chart',
+  },
+  {
+    title: '나의 하루 — 모멘텀 클론 (Vercel 배포)',
+    cats: ['react', 'js'],
+    tag: 'JavaScript · 개인',
+    tagClass: 'c-js',
+    img: '/contents/images/works/monment.png',
+    alt: '나의 하루 — 시계·날씨·할일 대시보드 화면',
+    href: 'https://monment.vercel.app/',
+    role: '설계 · 개발 100%',
+    tech: 'Vanilla JS · HTML/CSS',
+    feature: '날씨 API 연동 · 위치 역지오코딩 · 로컬스토리지',
+    chip: 'Vercel 서버리스 함수로 API 키 보호',
+    codeUrl: 'https://github.com/hannayou1/javascript2026',
+    delay: 'd1',
   },
   {
     title: 'Vue 포트폴리오 사이트',

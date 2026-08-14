@@ -4,8 +4,12 @@ import { FILTERS, PROJECTS } from '../data/projects';
 
 function ProjectCard({ p, filter }) {
   const hidden = filter !== 'all' && !p.cats.includes(filter);
+  // 숨김은 className 대신 인라인 스타일로 처리 — className이 바뀌면 IntersectionObserver가 붙인 visible 클래스가 유실됨
   return (
-    <div className={`wcard${p.vibe ? ' vibe' : ''} fade-up${p.delay ? ` ${p.delay}` : ''}${hidden ? ' hidden' : ''}`}>
+    <div
+      className={`wcard${p.vibe ? ' vibe' : ''} fade-up${p.delay ? ` ${p.delay}` : ''}`}
+      style={hidden ? { display: 'none' } : undefined}
+    >
       <a className="wcard-thumb shot" href={p.href} target="_blank" rel="noopener noreferrer">
         {p.vibe && <span className="vibe-badge">Vibe Coded</span>}
         <img src={p.img} alt={p.alt} loading="lazy" />

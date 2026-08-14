@@ -4,7 +4,7 @@ import { useEffect, useRef, useState } from "react";
 const KPIS = [
   { target: 9, suffix: "년+", label: "프론트엔드 실무 경력" },
   { target: 24, suffix: "개", label: "제작 프로젝트" },
-  { target: 100, suffix: "%", label: "AI 활용 개발" },
+  { target: 100, suffix: "%", label: "프론트엔드 직접 개발" },
 ];
 
 function useCountUp(target, started, duration = 1600) {
@@ -89,9 +89,7 @@ export default function Hero() {
       </div>
       <div className="hero-photo fade-up d2">
         <img src="/contents/images/img01.png" alt="유한나 프로필" />
-        <div className="badge-float">
-          <span>AI</span>Claude Code · Claude
-        </div>
+       
       </div>
     </section>
   );

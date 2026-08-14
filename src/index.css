@@ -210,7 +210,6 @@ a    { text-decoration: none; color: inherit; }
   transition: transform .25s, box-shadow .25s;
 }
 .wcard:hover { transform: translateY(-5px); box-shadow: var(--sh-lg); }
-.wcard[data-cat].hidden { display: none; }
 .wcard-thumb {
   height: 170px; width: 100%; position: relative; overflow: hidden;
   display: flex; align-items: center; justify-content: center; font-size: 40px;
@@ -244,6 +243,7 @@ a    { text-decoration: none; color: inherit; }
 .cat-tag.c-doc   { background: #FEF3E7; color: var(--accent-d); }
 .cat-tag.c-react { background: #E0F7FA; color: #00838F; }
 .cat-tag.c-vue   { background: #E6F7EF; color: #2E8B6D; }
+.cat-tag.c-js    { background: #FFF8E1; color: #A9850B; }
 .wcard-body h3 { font-size: 16px; font-weight: 800; margin-top: 10px; }
 .metric-list { margin-top: 14px; display: flex; flex-direction: column; gap: 8px; }
 .metric { display: flex; align-items: center; gap: 8px; font-size: 13px; color: var(--sub); }
