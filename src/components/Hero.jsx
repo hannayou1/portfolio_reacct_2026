@@ -89,9 +89,6 @@ export default function Hero() {
       </div>
       <div className="hero-photo fade-up d2">
         <img src="/contents/images/img01.png" alt="유한나 프로필" />
-        <div className="badge-float">
-          <span>AI</span>Claude Code · Claude
-        </div>
       </div>
     </section>
   );

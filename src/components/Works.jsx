@@ -7,11 +7,10 @@ function ProjectCard({ p, filter }) {
   // 숨김은 className 대신 인라인 스타일로 처리 — className이 바뀌면 IntersectionObserver가 붙인 visible 클래스가 유실됨
   return (
     <div
-      className={`wcard${p.vibe ? ' vibe' : ''} fade-up${p.delay ? ` ${p.delay}` : ''}`}
+      className={`wcard fade-up${p.delay ? ` ${p.delay}` : ''}`}
       style={hidden ? { display: 'none' } : undefined}
     >
       <a className="wcard-thumb shot" href={p.href} target="_blank" rel="noopener noreferrer">
-        {p.vibe && <span className="vibe-badge">Vibe Coded</span>}
         <img src={p.img} alt={p.alt} loading="lazy" />
         <span className="thumb-overlay">실제 페이지 보기 ↗</span>
       </a>
@@ -23,7 +22,7 @@ function ProjectCard({ p, filter }) {
           <div className="metric"><span>기술</span><span className="af">{p.tech}</span></div>
           <div className="metric"><span>특징</span><span className="af">{p.feature}</span></div>
         </div>
-        <div className={`role-chip${p.vibe ? ' vibe-chip' : ''}`}>{p.chip}</div>
+        <div className="role-chip">{p.chip}</div>
         {p.codeUrl && (
           <a className="code-link" href={p.codeUrl} target="_blank" rel="noopener noreferrer">💻 코드 보기 ↗</a>
         )}
@@ -46,7 +45,7 @@ export default function Works() {
         {FILTERS.map((f) => (
           <button
             key={f.key}
-            className={`f-btn${f.vibe ? ' f-vibe' : ''}${filter === f.key ? ' on' : ''}`}
+            className={`f-btn${filter === f.key ? ' on' : ''}`}
             onClick={() => setFilter(f.key)}
           >
             {f.label}

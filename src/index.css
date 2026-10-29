@@ -201,8 +201,6 @@ a    { text-decoration: none; color: inherit; }
   transition: all .2s;
 }
 .f-btn.on, .f-btn:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
-.f-btn.f-vibe { border-color: var(--primary-l); color: var(--primary); background: #EAF7F0; }
-.f-btn.f-vibe.on, .f-btn.f-vibe:hover { background: var(--primary); color: #fff; border-color: var(--primary); }
 .works-grid { display: grid; grid-template-columns: repeat(3,1fr); gap: 24px; }
 .wcard {
   border-radius: var(--r-md); background: #fff;
@@ -262,19 +260,6 @@ a    { text-decoration: none; color: inherit; }
   transition: background .2s, color .2s;
 }
 .code-link:hover { background: var(--primary); color: #fff; }
-/* 바이브 코딩 제작 카드 강조 */
-.wcard.vibe { border: 1.5px solid var(--primary-l); }
-.vibe-badge {
-  display: none;
-  position: absolute; top: 12px; left: 12px; z-index: 2;align-items: center; gap: 5px;
-  padding: 5px 11px; border-radius: 20px;
-  background: rgba(27,46,37,.82); color: #fff;
-  font-size: 11px; font-weight: 800; letter-spacing: .02em;
-  backdrop-filter: blur(2px);
-}
-.vibe-badge::before { content: '🤖'; font-size: 12px; }
-.role-chip.vibe-chip { background: var(--primary); color: #fff; }
-
 /* ════════ #skills ════════ */
 #skills { background: var(--bg-skills); padding: 88px 6%; }
 .skills-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 56px; margin-top: 48px; }
