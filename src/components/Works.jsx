@@ -58,7 +58,7 @@ export default function Works() {
           <ProjectCard key={p.title} p={p} filter={filter} />
         ))}
       </div>
-      <p className="works-note fade-up">* 카드 썸네일은 실제 산출물 화면 캡처이며, 클릭하면 라이브 페이지가 새 창으로 열립니다.</p>
+      <p className="works-note fade-up">* 카드 썸네일은 실제 산출물 화면 캡처 또는 프로젝트 대표 이미지이며, 클릭하면 라이브 페이지가 새 창으로 열립니다.</p>
     </section>
   );
 }

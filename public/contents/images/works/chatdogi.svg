@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675" fill="none">
+  <defs>
+    <linearGradient id="background" x1="0" y1="0" x2="1200" y2="675" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#110E19"/>
+      <stop offset="1" stop-color="#29203B"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="0" cy="0" r="1" gradientTransform="matrix(0 280 -440 0 600 260)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#9F7AEA" stop-opacity=".28"/>
+      <stop offset="1" stop-color="#9F7AEA" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <path fill="url(#background)" d="M0 0h1200v675H0z"/>
+  <path fill="url(#glow)" d="M0 0h1200v675H0z"/>
+  <g fill="#E9D9FF" opacity=".8">
+    <circle cx="142" cy="127" r="2"/><circle cx="287" cy="221" r="1.5"/>
+    <circle cx="1007" cy="145" r="2"/><circle cx="1096" cy="301" r="1.5"/>
+    <circle cx="881" cy="534" r="2"/><circle cx="209" cy="482" r="1.5"/>
+    <path d="M1037 423h3v13h-3zM1032 428h13v3h-13z"/>
+    <path d="M246 335h2v10h-2zM242 339h10v2h-10z"/>
+  </g>
+  <circle cx="600" cy="258" r="58" fill="#F0DBA8" fill-opacity=".08"/>
+  <path d="M600 201a57 57 0 1 0 0 114 44 44 0 1 1 0-114Z" fill="#F0DBA8"/>
+  <path d="m668 225 4 11 11 4-11 4-4 11-4-11-11-4 11-4 4-11Z" fill="#F0DBA8"/>
+  <text x="600" y="106" fill="#D9C6F2" font-family="Georgia,serif" font-size="16" letter-spacing="5" text-anchor="middle">THE MOONLIT ORACLE</text>
+  <text x="600" y="385" fill="#FBF7FF" font-family="sans-serif" font-size="46" font-weight="600" text-anchor="middle">당신의 오늘에, 별빛 한 조각을.</text>
+  <text x="600" y="430" fill="#C5B9D2" font-family="sans-serif" font-size="20" text-anchor="middle">챗도지 · 별빛 운세 질문 서비스</text>
+  <rect x="433" y="485" width="334" height="54" rx="27" stroke="#C9AFE8" stroke-opacity=".55"/>
+  <text x="600" y="519" fill="#E8DDF4" font-family="sans-serif" font-size="16" text-anchor="middle">오늘의 운세  ·  사랑의 흐름  ·  새로운 길</text>
+</svg>
