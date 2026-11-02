@@ -13,6 +13,20 @@ export const FILTERS = [
 
 export const PROJECTS = [
   {
+    title: '2026년 영화 순위',
+    cats: ['react'],
+    tag: 'React · 개인',
+    tagClass: 'c-react',
+    img: '/contents/images/works/frame_film.png',
+    alt: '2026년 한국 개봉 영화 박스오피스 서비스 대표 이미지',
+    href: 'https://react-js-alpha-flax.vercel.app/',
+    role: '기획 · UI 디자인 · 개발',
+    tech: 'React.js',
+    feature: '2026년 한국 개봉 영화 관객 수 · 매출 조회 및 비교',
+    chip: 'FRAME/FILM · 영화 박스오피스 비교',
+    codeUrl: 'https://github.com/hannayou1/reactJS-',
+  },
+  {
     title: 'React 프론트엔드 개발자 포트폴리오 (이 사이트)',
     cats: ['react'],
     tag: 'React · 개인',
